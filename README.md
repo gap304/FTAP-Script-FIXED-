@@ -1,2 +1,1 @@
-# FTAP-Script-FIXED-
-Just for more fling
+I am GAY
