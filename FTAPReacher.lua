@@ -106,12 +106,12 @@ InsaneReach.MouseButton1Down:connect(function()
 				local Constants = debug.getconstants(v)
 				for Number,Value in pairs(Constants) do
 					if type(Value) == "number" then
-						if Value == 100 then
-							debug.setconstant(v, Number, 1425)
+						if Value == 150 then
+							debug.setconstant(v, Number, 1470)
 							print("Set new Magnitude limit!")
 						end
-						if Value == 750 then
-							debug.setconstant(v, Number, 1450)
+						if Value == 1400 then
+							debug.setconstant(v, Number, 150)
 							print("Set new throw limit!")
 						end
 					end
