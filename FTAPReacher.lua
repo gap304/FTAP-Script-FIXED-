@@ -90,7 +90,7 @@ InsaneReach.MouseButton1Down:connect(function()
 		return OldIndex(Self, Key)
 	end
 
-	LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").WalkSpeed = 20
+	LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").WalkSpeed = 17
 
 	function Int()
 		for i,v in pairs(debug.getregistry()) do
@@ -107,7 +107,7 @@ InsaneReach.MouseButton1Down:connect(function()
 				for Number,Value in pairs(Constants) do
 					if type(Value) == "number" then
 						if Value == 100 then
-							debug.setconstant(v, Number, 1500)
+							debug.setconstant(v, Number, 1425)
 							print("Set new Magnitude limit!")
 						end
 						if Value == 750 then
@@ -124,7 +124,7 @@ InsaneReach.MouseButton1Down:connect(function()
 			while wait() do
 				if LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") then
 					LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").JumpPower = 24
-					LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").WalkSpeed = 20
+					LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").WalkSpeed = 17
 				elseif not LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") then
 					break
 				end
